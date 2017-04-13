@@ -69,7 +69,7 @@ img {
   padding: 2.2em;
   }
 
-.logo img {s
+.logo img {
   max-width: 13.125em;
   }
 
@@ -78,7 +78,7 @@ img {
 main {
   display: block;
   background: #fff;
-  padding: 5%;
+  padding: 1px 5%;
   box-sizing: border-box;
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
