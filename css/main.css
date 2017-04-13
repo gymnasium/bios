@@ -47,7 +47,6 @@ img {
 /* flexible structure / centering mechanism */
 
 .structure {
-  width: 92%;
   max-width: 72em;
   margin: 0 auto;
   }
@@ -70,7 +69,7 @@ img {
   padding: 2.2em;
   }
 
-.logo img {
+.logo img {s
   max-width: 13.125em;
   }
 
@@ -97,13 +96,21 @@ main h3 {
   }
 
 main h1 {
-  font-size: 2.2em;
+  font-size: 1.8em;
   font-weight: 900;
   letter-spacing: .04em;
   text-transform: uppercase;
   margin-top: -2%;
   margin-bottom: 2%;
   }
+
+@media (min-width: 48em) {
+
+main h1 {
+  font-size: 2.2em;
+  }
+
+}
 
 main h2 {
   font-size: 1.8em;
